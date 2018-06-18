@@ -102,10 +102,14 @@
 .fv-form-uikit .fv-icon-no-label {
 	top:0
 }
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html {
+html {
 	font-family:sans-serif;
-	-ms-text-size-adjust:100%;
-	-webkit-text-size-adjust:100%
+	box-sizing: border-box;
+	display: block;
+	font-family: sans-serif;
+	font-size: 10px;
+	text-size-adjust: 100%;
+	height: 0px;
 }
 body {
 	margin:0
@@ -2295,7 +2299,13 @@ output {
 	border:1px solid #ccc;
 	-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 	-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-	transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
+	transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	border-radius: 0px;
+	border-width: 2px;
+	height: 44px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
 }
 .form-control:focus {
 	border-color:#66afe9;
@@ -2541,7 +2551,7 @@ select[multiple].form-group-lg .form-control,textarea.form-group-lg .form-contro
 	display:block;
 	margin-top:5px;
 	margin-bottom:10px;
-	color:#737373
+	color:#fe96a1
 }
 @media (min-width:768px) {
 	.form-inline .form-group {
