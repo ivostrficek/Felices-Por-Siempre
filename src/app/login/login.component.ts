@@ -24,7 +24,7 @@ export class LoginComponent {
       if(this.password !== 'Cualca')
         this.passwordIncorrecta = true;
       else
-        this.router.navigate(['landing']);
+        this.router.navigate(['landing'], { queryParams: { from: 'login' } });
     }
   }
 }
