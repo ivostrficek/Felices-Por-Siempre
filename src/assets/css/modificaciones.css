@@ -1,0 +1,58 @@
+/* INSTAGRAM */
+
+#about {
+  background: url(../../assets/img/landing/insta.jpg) no-repeat center 60%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+  color: #fff;
+}
+
+#about a {
+	color: #fff;
+}
+
+
+#service {
+	background-image: url(../../assets/img/landing/tramado.jpeg);
+	background-size: 50%;
+}
+#galeria {
+	padding: 0px 0px 10px 0px;
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 50%; 
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.boss-countdown {
+	color: #fff;
+}
+
+.boss-countdown span {
+	color: #fff;
+}
+
+#icon-instagram {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+.section-gallery {
+  position: relative;
+}
+.faltan {
+	font-size: 25px;
+	color: #fff;
+}
